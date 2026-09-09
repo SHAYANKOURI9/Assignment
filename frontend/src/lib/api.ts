@@ -1,6 +1,6 @@
 // All API calls go through this. Handles CSRF automatically.
 
-const BASE = import.meta.env.VITE_API_URL ?? "";
+const BASE = (typeof import.meta !== "undefined" && (import.meta as any).env?.VITE_API_URL) || "";
 
 async function getCsrf(): Promise<string> {
   const match = document.cookie.match(/csrftoken=([^;]+)/);
