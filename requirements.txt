@@ -1,0 +1,10 @@
+django>=5.0,<6.0
+djangorestframework>=3.15
+django-cors-headers>=4.3
+python-decouple>=3.8
+whitenoise>=6.6
+dj-database-url>=2.1
+psycopg2-binary>=2.9
+pillow>=10.0
+anthropic>=0.25
+gunicorn>=22.0

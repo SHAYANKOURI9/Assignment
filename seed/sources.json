@@ -1,0 +1,285 @@
+{
+  "_note": "Every organisation and person named in this corpus is invented. Only places (cities, highways, states) are real, so the copy reads like genuine wire traffic without putting words in a real institution's mouth. trust_tier: 1 = wire service, 2 = official/corporate release, 3 = blog/social/unvetted. The clusterer uses trust_tier to decide whose wording seeds the machine draft.",
+  "sources": [
+    {
+      "slug": "bharat-news-service",
+      "name": "Bharat News Service",
+      "kind": "WIRE",
+      "handle": "BNS",
+      "trust_tier": 1,
+      "homepage": "https://wire.bharatnews.example"
+    },
+    {
+      "slug": "meridian-wire",
+      "name": "Meridian Wire",
+      "kind": "WIRE",
+      "handle": "MW",
+      "trust_tier": 1,
+      "homepage": "https://meridianwire.example"
+    },
+    {
+      "slug": "asia-pulse-agency",
+      "name": "Asia Pulse Agency",
+      "kind": "WIRE",
+      "handle": "APA",
+      "trust_tier": 1,
+      "homepage": "https://asiapulse.example"
+    },
+    {
+      "slug": "bengaluru-urban-transit",
+      "name": "Bengaluru Urban Transit Corporation",
+      "kind": "PRESS_RELEASE",
+      "handle": "BUTC",
+      "trust_tier": 2,
+      "homepage": "https://butc.example/press"
+    },
+    {
+      "slug": "national-weather-bureau",
+      "name": "National Weather Bureau",
+      "kind": "PRESS_RELEASE",
+      "handle": "NWB",
+      "trust_tier": 2,
+      "homepage": "https://nwb.example/bulletins"
+    },
+    {
+      "slug": "ministry-industry-commerce",
+      "name": "Ministry of Industry & Commerce",
+      "kind": "PRESS_RELEASE",
+      "handle": "MoIC",
+      "trust_tier": 2,
+      "homepage": "https://moic.example/releases"
+    },
+    {
+      "slug": "reserve-monetary-authority",
+      "name": "Reserve Monetary Authority",
+      "kind": "PRESS_RELEASE",
+      "handle": "RMA",
+      "trust_tier": 2,
+      "homepage": "https://rma.example/statements"
+    },
+    {
+      "slug": "district-police-pro",
+      "name": "District Police — Public Relations Office",
+      "kind": "PRESS_RELEASE",
+      "handle": "DPPRO",
+      "trust_tier": 2,
+      "homepage": "https://police.example/pro"
+    },
+    {
+      "slug": "statistics-office",
+      "name": "National Statistics Office",
+      "kind": "PRESS_RELEASE",
+      "handle": "NSO",
+      "trust_tier": 2,
+      "homepage": "https://nso.example/releases"
+    },
+    {
+      "slug": "department-renewable-energy",
+      "name": "Department of Renewable Energy",
+      "kind": "PRESS_RELEASE",
+      "handle": "DRE",
+      "trust_tier": 2,
+      "homepage": "https://dre.example/press"
+    },
+    {
+      "slug": "state-board-education",
+      "name": "State Board of Secondary Education",
+      "kind": "PRESS_RELEASE",
+      "handle": "SBSE",
+      "trust_tier": 2,
+      "homepage": "https://sbse.example/notices"
+    },
+    {
+      "slug": "zydan-therapeutics",
+      "name": "Zydan Therapeutics",
+      "kind": "PRESS_RELEASE",
+      "handle": "ZYDAN",
+      "trust_tier": 2,
+      "homepage": "https://zydantx.example/newsroom"
+    },
+    {
+      "slug": "verakine-biosciences",
+      "name": "Verakine Biosciences",
+      "kind": "PRESS_RELEASE",
+      "handle": "VERAKINE",
+      "trust_tier": 2,
+      "homepage": "https://verakine.example/news"
+    },
+    {
+      "slug": "coastal-logistics-group",
+      "name": "Coastal Logistics Group",
+      "kind": "PRESS_RELEASE",
+      "handle": "CLG",
+      "trust_tier": 2,
+      "homepage": "https://coastallogistics.example/media"
+    },
+    {
+      "slug": "sundara-finance-bank",
+      "name": "Sundara Finance Bank",
+      "kind": "PRESS_RELEASE",
+      "handle": "SFB",
+      "trust_tier": 2,
+      "homepage": "https://sundarafinance.example/investors"
+    },
+    {
+      "slug": "vayu-air",
+      "name": "Vayu Air",
+      "kind": "PRESS_RELEASE",
+      "handle": "VAYU",
+      "trust_tier": 2,
+      "homepage": "https://vayuair.example/press"
+    },
+    {
+      "slug": "the-platform-diary",
+      "name": "The Platform Diary",
+      "kind": "BLOG",
+      "handle": "platformdiary",
+      "trust_tier": 3,
+      "homepage": "https://platformdiary.example"
+    },
+    {
+      "slug": "founders-ledger",
+      "name": "Founders Ledger",
+      "kind": "BLOG",
+      "handle": "foundersledger",
+      "trust_tier": 3,
+      "homepage": "https://foundersledger.example"
+    },
+    {
+      "slug": "deccan-desk-notes",
+      "name": "Deccan Desk Notes",
+      "kind": "BLOG",
+      "handle": "deccandesk",
+      "trust_tier": 3,
+      "homepage": "https://deccandesknotes.example"
+    },
+    {
+      "slug": "ledger-and-lens",
+      "name": "Ledger & Lens",
+      "kind": "BLOG",
+      "handle": "ledgerandlens",
+      "trust_tier": 3,
+      "homepage": "https://ledgerandlens.example"
+    },
+    {
+      "slug": "city-screen-weekly",
+      "name": "City Screen Weekly",
+      "kind": "BLOG",
+      "handle": "cityscreen",
+      "trust_tier": 3,
+      "homepage": "https://cityscreenweekly.example"
+    },
+    {
+      "slug": "trendbazaar",
+      "name": "TrendBazaar",
+      "kind": "BLOG",
+      "handle": "trendbazaar",
+      "trust_tier": 3,
+      "homepage": "https://trendbazaar.example"
+    },
+    {
+      "slug": "daily-star-signs",
+      "name": "Daily Star Signs",
+      "kind": "BLOG",
+      "handle": "dailystarsigns",
+      "trust_tier": 3,
+      "homepage": "https://dailystarsigns.example"
+    },
+    {
+      "slug": "social-bnglr-commutes",
+      "name": "@bnglr_commutes",
+      "kind": "SOCIAL",
+      "handle": "bnglr_commutes",
+      "trust_tier": 3,
+      "homepage": "https://social.example/bnglr_commutes"
+    },
+    {
+      "slug": "social-mumbai-rains",
+      "name": "@mumbai_rains_live",
+      "kind": "SOCIAL",
+      "handle": "mumbai_rains_live",
+      "trust_tier": 3,
+      "homepage": "https://social.example/mumbai_rains_live"
+    },
+    {
+      "slug": "social-scorecard",
+      "name": "@scorecard_live",
+      "kind": "SOCIAL",
+      "handle": "scorecard_live",
+      "trust_tier": 3,
+      "homepage": "https://social.example/scorecard_live"
+    },
+    {
+      "slug": "social-exam-alerts",
+      "name": "@exam_alerts",
+      "kind": "SOCIAL",
+      "handle": "exam_alerts",
+      "trust_tier": 3,
+      "homepage": "https://social.example/exam_alerts"
+    },
+    {
+      "slug": "social-fare-watch",
+      "name": "@farewatch",
+      "kind": "SOCIAL",
+      "handle": "farewatch",
+      "trust_tier": 3,
+      "homepage": "https://social.example/farewatch"
+    },
+    {
+      "slug": "social-boxoffice-daily",
+      "name": "@boxoffice_daily",
+      "kind": "SOCIAL",
+      "handle": "boxoffice_daily",
+      "trust_tier": 3,
+      "homepage": "https://social.example/boxoffice_daily"
+    },
+    {
+      "slug": "social-chess-updates",
+      "name": "@chess_updates",
+      "kind": "SOCIAL",
+      "handle": "chess_updates",
+      "trust_tier": 3,
+      "homepage": "https://social.example/chess_updates"
+    },
+    {
+      "slug": "social-chainmaxi",
+      "name": "@chainmaxi",
+      "kind": "SOCIAL",
+      "handle": "chainmaxi",
+      "trust_tier": 3,
+      "homepage": "https://social.example/chainmaxi"
+    },
+    {
+      "slug": "social-tickerbot",
+      "name": "@tickerbot",
+      "kind": "SOCIAL",
+      "handle": "tickerbot",
+      "trust_tier": 3,
+      "homepage": "https://social.example/tickerbot"
+    },
+    {
+      "slug": "growthloop-marketing",
+      "name": "GrowthLoop (vendor mailer)",
+      "kind": "PRESS_RELEASE",
+      "handle": "growthloop",
+      "trust_tier": 3,
+      "homepage": "https://growthloop.example"
+    },
+    {
+      "slug": "sanchar-careers",
+      "name": "Sanchar Careers",
+      "kind": "PRESS_RELEASE",
+      "handle": "sancharcareers",
+      "trust_tier": 3,
+      "homepage": "https://sancharcareers.example"
+    },
+    {
+      "slug": "cityevents-calendar",
+      "name": "CityEvents Calendar",
+      "kind": "PRESS_RELEASE",
+      "handle": "cityevents",
+      "trust_tier": 3,
+      "homepage": "https://cityevents.example"
+    }
+  ]
+}
