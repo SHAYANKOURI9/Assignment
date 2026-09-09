@@ -76,7 +76,8 @@ STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 frontend_dist = BASE_DIR / "frontend" / "dist"
 STATICFILES_DIRS = [frontend_dist] if frontend_dist.exists() else []
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
+WHITENOISE_ROOT = frontend_dist if frontend_dist.exists() else None
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
