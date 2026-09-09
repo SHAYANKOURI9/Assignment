@@ -1,6 +1,6 @@
 // All API calls go through this. Handles CSRF automatically.
 
-const BASE = (typeof import.meta !== "undefined" && (import.meta as any).env?.VITE_API_URL) || "";
+const BASE = "";
 
 async function getCsrf(): Promise<string> {
   const match = document.cookie.match(/csrftoken=([^;]+)/);
@@ -56,7 +56,7 @@ export const ingestApi = {
     const csrf = await getCsrf();
     const fd = new FormData();
     fd.append("image", file);
-    const res = await fetch(BASE + "/api/ingest/screenshot/", {
+    const res = await fetch("/api/ingest/screenshot/", {
       method: "POST",
       credentials: "include",
       headers: { "X-CSRFToken": csrf },
