@@ -62,15 +62,9 @@ class Command(BaseCommand):
                 username=username,
                 defaults={"first_name": first, "last_name": last, "role": role},
             )
-            if created:
-                user.set_password("demo")
-                user.save()
-                self.stdout.write(f"  Created user: {username} / demo ({role})")
-            else:
-                # Ensure role is correct even on re-seed without --reset
-                if user.role != role:
-                    user.role = role
-                    user.save(update_fields=["role"])
+            user.set_password("demo")
+            user.role = role
+            user.save()
 
     def _seed_sources(self):
         from ingest.models import Source
