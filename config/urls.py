@@ -11,5 +11,5 @@ urlpatterns = [
     path("api/desk/", include("desk.urls")),
     path("api/analytics/", include("analytics.urls")),
     # Catch-all: serve the SPA for any non-API route
-    re_path(r"^(?!api/).*$", TemplateView.as_view(template_name="index.html")),
+    re_path(r"^(?!api/|assets/|static/|admin/).*$", TemplateView.as_view(template_name="index.html")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
